@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+    
+}
+#container{
+    width: 96%;
+    height: 100%;
+    border: 24px solid rebeccapurple;
+    /* padding: 23px 23px; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Fraunces', serif;
+
+}
+#container1{
+    display: flex;
+    flex-direction: column;
+    background: #6476aa;
+    mix-blend-mode: overlay;
+}
+#container1::before{
+    content: "";
+    background: url(img/home3.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 74%;
+    width: 96%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+h2{
+    display: block;
+    font-size: 1.5rem;
+    margin: 21px 39px;
+    font-weight: 500;
+    color: white;
+    opacity: .98;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    margin: -1px;
+    padding: 10px;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    opacity: .8;
+}
+h1{
+    text-align: center;
+    font-size: 4.3rem;
+    font-weight: 100;
+    color: white;
+    opacity: .8;
+    letter-spacing: 3px;
+    margin-top: 0px;
+}
+a{
+    margin: auto;
+    text-align: center;
+    padding: 11px 18px;
+    border-radius: 28px;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-bottom: 110px;
+    opacity: .9;
+}
+a:hover{
+   background: rgb(128, 128, 161);
+}
+/* 2nd container start */
+#container2{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+#container2 .text-part{
+    justify-content: center;
+    margin: 52px;
+    padding: 67px 76px;
+
+}
+.text-part p:first-child{
+    padding-left: 0px;
+    padding-right: 193px;
+    margin: 22px;
+    margin-right: 200px;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.text-part p:nth-child(2){
+    padding-left: 0px;
+    padding-right: 33px;
+    margin: 28px;
+    margin-right: 31px;
+    margin-left: 0px;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 44px;
+}
+.text-part p{
+    color: black;
+    font-weight: 300;
+    opacity: .8;
+
+}
+.text-part p strong{
+    color: black;
+    font-weight: 700;
+
+}
+#container2 .text-part a{
+    border: 1px solid rgb(255, 191, 191);
+    background: #5c5f64;;
+    mix-blend-mode: overlay;
+}
+#container2 .text-part a:hover{
+    background: rgb(46, 46, 145);
+ }
+/* image part start */
+.image-part{
+    background-image: url(img/home8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 108%;
+    height: 319px;
+    margin: 100px 84px;
+}
+
+
+/* 2nd container end */
+/* 3rd container */
+#container3{
+    display: flex;
+    justify-content: flex-end;
+    height: 579px;
+}
+#container3::before{
+    content: "";
+    background: url(img/home1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 74%;
+    width: 96%;
+    z-index: -1;
+    opacity: .7;
+
+}
+#container3 .text-part{
+    margin: 47px;
+    padding: 12px 25px;
+    flex-basis: 45%;
+
+}
+#container3 .text-part p{
+    color: rgb(255, 255, 255) !important;
+
+
+}
+#container3 .text-part p strong{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
